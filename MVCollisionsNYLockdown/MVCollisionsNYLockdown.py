@@ -11,10 +11,10 @@ print(df.head())
 print(df.info())
 print(df.describe())
 
-#  Clean the data (if necessary)
+#  Clean the data 
 print(df.isnull().sum())
 df = df.drop_duplicates()
-# Handle missing values (if necessary)
+# Handle missing values 
 # Example: df = df.dropna()
 
 #  Identify Patterns and Trends
@@ -79,4 +79,4 @@ plt.xticks(range(0, 24))
 plt.grid(True)
 plt.show()
 
-#  Interpret the results
+
